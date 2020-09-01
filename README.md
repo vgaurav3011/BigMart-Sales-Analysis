@@ -112,6 +112,11 @@ Target Feature:
 ![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Type/Visibility.png)
 
 
+## Modelling and Evaluation
+
+- We tried Random Forest Regressor, Gradient Boosting, XGBoost and Decision Tree Models for Regression, out of which the most optimal tuned model was the Random Forest, and the other ensemble models performed optimally too.
+- The Evaluation metric used is the Root Mean Squared Error with a least value of 1153 which came in top 4% of the leaderboard highest being 1127 on the Analyticsvidhya Janatahack.
+
 # Summary
 
 - Low Fat Content items have higher sales in both Tier-1 and Tier-3 cities equally almost, indicating diet consciousness is not constrained to urban areas.
