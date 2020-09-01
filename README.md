@@ -111,6 +111,34 @@ Target Feature:
 
 ![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Type/Visibility.png)
 
+## Feature Engineering
+
+- The Item Outlet Sales has many outliers with respect to the Outlet Size and Type.
+
+- Item Weight does not have an equitable distribution
+
+- We handle the missing values of item weight by first indexing the training data according to item identifier and then using the corresponding values of the item weight for similar item identifiers as the potential replacement that prevents the bias towards mean of the data, if we use that as the missing value replacement.
+
+- The highest sales with respect to the outlet type can be seen in Supermarket 3, followed closely by Supermarket-1 and later followed by Supermarket-2 and Grocery Stores. We cannot compare the sales given with respect to this comparison as the size of most of the Grocery Stores is small compared to the medium or larger outlet sizes of the supermarkets.
+
+- Medium and Small Sized Grocery Stores have higher sales than the High sized stores indicating that local level stores with optimal size are more of a potential market to expand compared to others.
+
+- The missing Outlet Sizes have similar boxplots to the Small and Medium sized stores and we replace the missing values with respect to the mode of the corresponding outlet identfiers.
+
+- We classify each item in a new category based on their Item MRP Prices.
+
+- We remove all outliers above and below 1.5 times the Interquantile Range endpoints ie Q1 and Q3.
+
+- The item visibility cannot be equivalent to zero for any item and we replace them with the mean of the column.
+
+- We identify non-edible items with respect to the first two letters of the Item Identifier and classify their fat content as not applicable to make a more justifiable feature.
+
+- Based on item identifier, we map the items to the first two letters of the string as the type of item.
+
+- We make a new feature with respect to the outlet establishment year where we determine the time frame of the outlet from when it started.
+
+- Run LabelEncoder on the categorical features and analyzed correlations between numerical features.
+
 
 ## Modelling and Evaluation
 
