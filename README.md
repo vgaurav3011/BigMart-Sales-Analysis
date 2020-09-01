@@ -100,12 +100,17 @@ Target Feature:
 - It matters in the Grocery Stores since 1985, but largely does not affect the Supermarkets all that much.
 - Fat Content does not relate well with its visibility
 
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Type/OutletType.png)
+
 ### Item Type
 
 - Snack Foods and Fruits and Vegetables tend to have higher sales in the Supermarkets
 - Grocery Stores also have high sales of Snacks, Fruits and Vegetables as well as Frozen Foods
 - Essential items or daily needs have higher visibility
 - Item Weight has no significant impact on the Types of items.
+
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Type/Visibility.png)
+
 
 # Summary
 
