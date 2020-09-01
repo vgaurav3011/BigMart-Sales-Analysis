@@ -57,6 +57,14 @@ Target Feature:
 - Medium sized outlets of Supermarket Type-3 have best sales in any category.
 - Low fat content items have been sold most in Supermarket Type-3
 
+
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Outlet%20Sales/distplot.png)
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Outlet%20Sales/Outlet_Type.png)
+
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Outlet%20Sales/OutletSize.png)
+
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Outlet%20Sales/Years.png)
+
 ### Item Fat Content
 
 - The item fat content has two distinct categories Low Fat and Regular which needs to be mapped along with LF, reg and low fat categorical values.
