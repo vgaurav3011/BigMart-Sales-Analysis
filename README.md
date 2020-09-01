@@ -73,6 +73,9 @@ Target Feature:
 - The low-fat content items have higher sales than the corresponding Regular Fat items, and both have almost equitable distribution.
 - Medium and Small Sized Outlets have higher sales of Low Fat Items than the High sized supermarkets.
 
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20Fat%20Content/OutletSize.png)
+
+
 ### Item MRP
 
 - The highest sold items based on different types are Starchy Foods closely followed by Seafood and Dairy Products.
@@ -81,6 +84,12 @@ Target Feature:
 - The Item MRP is constant around different outlets and is thus independent of any outlet bias in terms of price range of different products.
 - Item Weight is equally distributed over different MRPs and cannot be the deciding factor in this case.
 - Item Visibility has no direct relationship with MRP either.
+
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20MRP/MRP.png)
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20MRP/TypeOutlet.png)
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20MRP/ItemType.png)
+![alt-text](https://raw.githubusercontent.com/vgaurav3011/BigMart-Sales-Analysis/master/images/Item%20MRP/OutletSales.png)
+
 
 ### Item Visibility
 
